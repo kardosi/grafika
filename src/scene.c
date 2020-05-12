@@ -17,7 +17,7 @@ void init_scene(Scene* scene)
 	load_model(&(scene->model[2]), "obj/duck.obj");
 	load_model(&(scene->model[3]), "obj/hare.obj");
 	scene->texture_id[0] = load_texture("images/piros.jpg");
-    scene->texture_id[1] = load_texture("iamges/hatter.jpg");
+    scene->texture_id[1] = load_texture("images/hatter.jpg");
 	scene->texture_id[2] = load_texture("images/fold.jpg");
 	scene->texture_id[3] = load_texture("images/hold.jpg");
 	scene->texture_id[4] = load_texture("images/duck.jpg");
